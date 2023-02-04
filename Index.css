@@ -1,0 +1,40 @@
+.faq-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #search {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question-header {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .answer {
+    display: none;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+  .show{
+    display: block;
+  }
+  /* #mainQuestion{
+    cursor: pointer;
+  } */
